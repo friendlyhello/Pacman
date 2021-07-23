@@ -84,3 +84,6 @@ VSCode Files
 /.vscode/*
 BuildingEscape.code-workspace
 
+# Massive Cache Files
+proj_pacman/Library/*
+
