@@ -13,7 +13,7 @@ TagManager:
   - UI
   - Pacman
   - Ghosts
-  - Obstacles
+  - Walls
   - Pellets
   - Nodes
   - 
