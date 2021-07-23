@@ -87,3 +87,4 @@ BuildingEscape.code-workspace
 # Massive Cache Files
 proj_pacman/Library/*
 
+proj_pacman/Temp/UnityLockfile
