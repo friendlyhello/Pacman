@@ -84,9 +84,3 @@ VSCode Files
 /.vscode/*
 BuildingEscape.code-workspace
 
-# Massive Cache
-Pacman/Library/Artifacts/*
-Pacman/Library/Bee/*
-Pacman/Library/PackageCache/*
-Pacman/Library/ShaderCache/*
-Pacman/Temp/UnityLockfile
