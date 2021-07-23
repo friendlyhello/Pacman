@@ -9,6 +9,7 @@
   </component>
   <component name="IdeDocumentHistory">
     <changedPaths>
+      <option value="$PROJECT_DIR$/Assets/Scripts/Ghost.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/GameManager.cs" />
     </changedPaths>
   </component>
@@ -55,7 +56,7 @@
       <option name="presentableId" value="Default" />
       <updated>1627018975761</updated>
       <workItem from="1627018992971" duration="122000" />
-      <workItem from="1627047976134" duration="3333000" />
+      <workItem from="1627047976134" duration="6194000" />
     </task>
     <servers />
   </component>

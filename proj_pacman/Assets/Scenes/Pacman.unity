@@ -9181,8 +9181,8 @@ Tilemap:
   - first: {x: -13, y: -10, z: 0}
     second:
       serializedVersion: 2
-      m_TileIndex: 0
-      m_TileSpriteIndex: 0
+      m_TileIndex: 2
+      m_TileSpriteIndex: 2
       m_TileMatrixIndex: 0
       m_TileColorIndex: 0
       m_TileObjectToInstantiateIndex: 65535
@@ -9391,8 +9391,8 @@ Tilemap:
   - first: {x: 12, y: -10, z: 0}
     second:
       serializedVersion: 2
-      m_TileIndex: 0
-      m_TileSpriteIndex: 0
+      m_TileIndex: 2
+      m_TileSpriteIndex: 2
       m_TileMatrixIndex: 0
       m_TileColorIndex: 0
       m_TileObjectToInstantiateIndex: 65535
@@ -10621,8 +10621,8 @@ Tilemap:
   - first: {x: -13, y: 10, z: 0}
     second:
       serializedVersion: 2
-      m_TileIndex: 0
-      m_TileSpriteIndex: 0
+      m_TileIndex: 2
+      m_TileSpriteIndex: 2
       m_TileMatrixIndex: 0
       m_TileColorIndex: 0
       m_TileObjectToInstantiateIndex: 65535
@@ -10671,8 +10671,8 @@ Tilemap:
   - first: {x: 12, y: 10, z: 0}
     second:
       serializedVersion: 2
-      m_TileIndex: 0
-      m_TileSpriteIndex: 0
+      m_TileIndex: 2
+      m_TileSpriteIndex: 2
       m_TileMatrixIndex: 0
       m_TileColorIndex: 0
       m_TileObjectToInstantiateIndex: 65535
@@ -10980,15 +10980,19 @@ Tilemap:
       m_AllTileFlags: 1073741825
   m_AnimatedTiles: {}
   m_TileAssetArray:
-  - m_RefCount: 4
-    m_Data: {fileID: 11400000, guid: 4987a0f7635bb8e4fa9a74f6cc2f0d36, type: 2}
+  - m_RefCount: 0
+    m_Data: {fileID: 0}
   - m_RefCount: 242
     m_Data: {fileID: 11400000, guid: 73cb0d1db743e124bb2e9d6cd37c2e25, type: 2}
-  m_TileSpriteArray:
   - m_RefCount: 4
-    m_Data: {fileID: 21300000, guid: 3eef1c7fee2f8be43925317b2c6d47de, type: 3}
+    m_Data: {fileID: 11400000, guid: 61a594eecd0098948a9d32d28fcaa247, type: 2}
+  m_TileSpriteArray:
+  - m_RefCount: 0
+    m_Data: {fileID: 0}
   - m_RefCount: 242
     m_Data: {fileID: 21300000, guid: 53443f2aefabad045b3dda9ee5be40c9, type: 3}
+  - m_RefCount: 4
+    m_Data: {fileID: 21300000, guid: 6df5dbb810882584384be01a355f2219, type: 3}
   m_TileMatrixArray:
   - m_RefCount: 246
     m_Data:
@@ -11082,3 +11086,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 68dd45b7d714e4642aeda147be8931f0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ghosts: []
+  pacman: {fileID: 0}
+  pellets: {fileID: 0}

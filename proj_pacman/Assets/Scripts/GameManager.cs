@@ -11,8 +11,8 @@ public class GameManager : MonoBehaviour
     public Transform pellets;
     
     // Getters-Setters
-    public int Score { get; private set; }
-    public int Lives { get; private set; }
+    public int score { get; private set; }
+    public int lives { get; private set; }
     
 
     private void Start()
@@ -21,6 +21,17 @@ public class GameManager : MonoBehaviour
         Debug.Log("GAME START");
     }
 
+    //** METHODS */
+    
+    private void SetScore(int score)
+    {
+        score = score;
+    }
+
+    private void SetLives(int lives)
+    {
+        lives = lives;
+    }
     private void NewGame()
     {
         SetScore(0);
@@ -61,17 +72,23 @@ public class GameManager : MonoBehaviour
         // Hide Pacman
         pacman.gameObject.SetActive(false);
     }
-    private void SetScore(int score)
+
+    public void GhostEaten(Ghost ghost)
     {
-        score = score;
+        SetScore(score + ghost.points);
     }
 
-    private void SetLives(int lives)
+    public void PacmanEaten()
     {
-        lives = lives;
+        pacman.gameObject.SetActive(false);
+        
+        SetLives(lives - 1);
+
+        if (lives > 0) {
+            Invoke(nameof(ResetState), 3.0f);       
+        }
+        else {
+            GameOver();
+        }
     }
-    
-    //** METHODS */
-    
-    
 }
