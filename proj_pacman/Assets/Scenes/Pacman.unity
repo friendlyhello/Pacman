@@ -265,6 +265,7 @@ GameObject:
   - component: {fileID: 836885842}
   - component: {fileID: 836885845}
   - component: {fileID: 836885846}
+  - component: {fileID: 836885847}
   m_Layer: 6
   m_Name: Pacman
   m_TagString: Untagged
@@ -387,6 +388,25 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 08f6fd75bea44744f87b8fbf6fff9d0e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &836885847
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 836885841}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 06e8eac2d7a872847939dcf334012475, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sprites:
+  - {fileID: 21300000, guid: 100cd76238c88cb43a34c87935d143c0, type: 3}
+  - {fileID: 21300000, guid: bb00198c1fcbb9e4c8c220a19d984c5b, type: 3}
+  - {fileID: 21300000, guid: 100cd76238c88cb43a34c87935d143c0, type: 3}
+  - {fileID: 21300000, guid: 8b9d8d2a17c99af418cb587827f5c377, type: 3}
+  animationTime: 0.05
+  loop: 1
 --- !u!1 &1619276340
 GameObject:
   m_ObjectHideFlags: 0

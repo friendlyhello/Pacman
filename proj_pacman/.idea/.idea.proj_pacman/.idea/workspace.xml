@@ -7,10 +7,15 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/AnimatedSprite.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
   <component name="IdeDocumentHistory">
     <changedPaths>
       <option value="$PROJECT_DIR$/Assets/Scripts/Ghost.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Pacman.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/GameManager.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/AnimatedSprite.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1vhetbpEwXOaKOgHxiKr8hkkwiT" />
@@ -57,7 +62,7 @@
       <updated>1627018975761</updated>
       <workItem from="1627018992971" duration="122000" />
       <workItem from="1627047976134" duration="6194000" />
-      <workItem from="1627402171809" duration="2443000" />
+      <workItem from="1627402171809" duration="4775000" />
     </task>
     <servers />
   </component>
