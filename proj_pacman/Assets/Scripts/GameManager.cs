@@ -32,12 +32,12 @@ public class GameManager : MonoBehaviour
     //** METHODS */
     private void SetScore(int score)
     {
-        score = score;
+        this.score = score;
     }
 
     private void SetLives(int lives)
     {
-        lives = lives;
+        this.lives = lives;
     }
     private void NewGame()
     {
