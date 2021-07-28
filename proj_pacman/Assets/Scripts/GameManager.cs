@@ -21,8 +21,15 @@ public class GameManager : MonoBehaviour
         Debug.Log("GAME START");
     }
 
-    //** METHODS */
+    private void Update()
+    {
+        if (lives >= 0 && Input.anyKeyDown)
+        {
+            GameOver();
+        }
+    }
     
+    //** METHODS */
     private void SetScore(int score)
     {
         score = score;
